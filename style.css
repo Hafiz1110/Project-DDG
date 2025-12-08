@@ -199,6 +199,8 @@ h1:hover::before {
   flex-basis: 1;
 }
 
+
+
 .box1 {
   width: 240px;
   height: 40px;
@@ -394,7 +396,23 @@ h1:hover::before {
   flex-wrap: wrap;
 }
 
-  
+.box1, .box2, .box3, .box4 ,.box5, .box6 {
+  width:140px;
+  height: 20px;
+}  
+
+.skills-image {
+  height:50 ;
+  width: 50;
+}
+
+.skills-card {
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 50px;
+}
+
 }
 
 .container-project {
@@ -417,7 +435,7 @@ h1:hover::before {
   
 }
 
-.image-project {
+.image-card {
   flex-grow: 1;
   width: 100%;
   
