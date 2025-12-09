@@ -413,6 +413,14 @@ h1:hover::before {
   margin-top: 50px;
 }
 
+.about-image {
+  position: relative;
+  right: -20vw;
+  top: -130vw;
+  width: 190px !important; 
+  height: 200px;
+}
+
 }
 
 .container-project {
