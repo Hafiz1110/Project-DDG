@@ -436,9 +436,9 @@ h1:hover::before {
   
 }
 
-.image-card {
-  flex-grow: 1;
-  width: 100%;
+.card {
+  flex-grow: 1
+  
   
 }
 
@@ -495,6 +495,7 @@ h1:hover::before {
 
 
 .foot {
+  display: flex;
   text-align: center;
   align-items: center;
 }
@@ -527,5 +528,8 @@ footer {
 }
 
 .wa {
+  display: flex ;
   justify-content: space-between;
+  margin-right:1rem ;
+  margin-left: 1rem;
 }
