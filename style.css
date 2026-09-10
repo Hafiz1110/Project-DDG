@@ -98,7 +98,7 @@ h1 {
 }
 
 h1::before {
-  content: "Hello:3";
+  content: "Gyaru";
   position: absolute;
   top: 0%;
   left: 0%;
