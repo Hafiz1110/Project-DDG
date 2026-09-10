@@ -436,8 +436,13 @@ h1:hover::before {
   
 }
 
+.image-card {
+    
+}
+
 .card {
-  flex-grow: 1
+  flex-grow: 1;
+  
   
   
 }
